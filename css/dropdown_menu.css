@@ -33,7 +33,7 @@
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover {background-color: #0018FF}
+.dropdown-content a:hover {background-color: #0018FF; color: white}
 
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
