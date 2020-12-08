@@ -231,6 +231,7 @@ h1, h2, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neu
     padding: 16px 20px 20px; 
     font-weight: bold;
     display: inline-block;
+	text-align: center;
 }
 
 .templatemo-header-orange {
@@ -678,7 +679,7 @@ ul.templatemo-project-gallery  li  a img:hover {
     }
 	.templatemo-service-item-header {
 		font-size: 16px;
-		
+		text-align: center;
 		padding: 23px 10px 22px;
 	}
 	.templatemo-header-orange {
