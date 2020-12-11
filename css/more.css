@@ -8,3 +8,7 @@
 	cursor: pointer;
 } /* Blue */
 
+.h1{
+	color: #990000; font-size: 30px; margin: 0; font-weight: bold; text-transform: uppercase;
+}
+
