@@ -21,6 +21,16 @@
 		<link href="css/dropdown_menu.css"  rel='stylesheet' type='text/css'>
 		<link href="css/more.css"  rel='stylesheet' type='text/css'>
 		<link href="css/Call.css"  rel='stylesheet' type='text/css'>
+		<link href="css/slideshow_banner.css"  rel='stylesheet' type='text/css'>
+		
+			<link href="css/style.css"  rel='stylesheet' type='text/css'>
+			<link href="css/style.mod.css"  rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="js/jquery.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+		  <script type="text/javascript" src="js/wowslider.js"></script> 
+  <script type="text/javascript" src="js/script.js"></script> 
+		
+
 
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -30,6 +40,7 @@
     </head>
     
     <body>
+		
 
         <div class="templatemo-top-bar" id="templatemo-top">
             <div class="container">
@@ -56,25 +67,14 @@
                                 <span class="icon-bar"></span>
                                 <span class="icon-bar"></span>
                                 </button>
-                                <a href="#" class="navbar-brand"><img src="images/logo.png" alt="NobiCode" title="NobiCode" /></a>
+                                <a href="#" class="navbar-brand"><img src="images/logo.png" alt="Nobicode" title="NobiCode" /></a>
                         </div>
 
                         <div class="navbar-collapse collapse" id="templatemo-nav-bar">
                             <ul class="nav navbar-nav navbar-right" style="margin-top: 40px;">
 								
-<!--
-								<li class="active"><a href="#templatemo-top">Trang chủ</a></li>
-                                <li><a href="#templatemo-portfolio">Công nghệ</a></li>
-                                <li><a href="#templatemo-blog">Giáo dục</a></li>
-								
-								
-                                <li><a rel="nofollow" href="https://fb.com/templatemo" 
-                                		class="external-link" target="_parent">EXTERNAL</a></li>
-								<li><a href="#templatemo-about">Thông tin về chúng tôi</a></li>
-                                <li><a href="#templatemo-contact">Liên hệ</a></li>
--->
 								<div class="dropdown">
-									<button class="dropbtn" onclick="location.href='index.html'">Trang chủ</button>	
+									<button class="buttonmenu" onclick="location.href='index.html'">Trang chủ</button>	
 								</div>
 								
 								<div class="dropdown">
@@ -83,7 +83,7 @@
 										<a href="#">Năng lượng mặt trời</a>
 										<a href="#">Hệ thống an ninh, giám sát</a>
 										<a href="#">Smartfarm: nông trại thông minh</a>
-										<a href="#">Smart home: hệ thống nhà thông minh</a>	
+										<a href="#">Smart home: hệ thống nhà thông minh</a>								
 										<a href="#">IoT: kết nối vạn vật qua internet</a>
 										<a href="#">Phần mềm quản lý: nhân sự, chấm công, kho hàng</a>
 										<a href="#">Hệ thống điện dân dụng & công nghiệp</a>
@@ -158,7 +158,7 @@
 									</div>
  								</div>
 								
-								
+							
 								
 								<div class="dropdown">
 									<button class="dropbtn">Tin tức</button>
@@ -173,7 +173,7 @@
 								</div>
 								
 								<div class="dropdown">
-									<button class="buttonmenu" onclick="location.href='Contact.html'">Liên hệ</button>
+									<button class="dropbtn" onclick="location.href='Contact.html'">Liên hệ</button>
 								</div>
 								
                             </ul>
@@ -184,57 +184,41 @@
         </div>
         
         <div>
-            <!-- Carousel -->
-            <div id="templatemo-carousel" class="carousel slide" data-ride="carousel">
-                <!-- Indicators -->
-                <ol class="carousel-indicators">
-                    <li data-target="#templatemo-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#templatemo-carousel" data-slide-to="1"></li>
-                    <li data-target="#templatemo-carousel" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="container">
-                            <div class="carousel-caption">
-                                <h1>Chào mừng bạn đến với NobiCode</h1>
-<!--                                <p>CHOOSE THE ONE SUITABLE FOR YOU</p>-->
-<!--
-                                <p><a class="btn btn-lg btn-green" href="#" role="button" style="margin: 20px;">View Demo</a> 
-                                	<a class="btn btn-lg btn-orange" href="#" role="button">Free Download</a></p>
--->
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- <div class="item">
-                        <div class="container">
-                                <div class="carousel-caption">
-                                    <div class="col-sm-6 col-md-6">
-                                    	<h1>FLUID</h1>
-                                        <p>Suspendisse pellentesque, odio vel ultricies interdum, mauris nulla ullamcorper magna, non aliquet odio velit aliquam augue.</p>
-                                    </div>
-                                    <div class="col-sm-6 col-md-6">
-                                    	<h1>ENERGY</h1>
-                                        <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nullam mattis fringilla urna.</p>
-                                    </div>
-                                </div>
-                        </div>
-<!--                    </div>-->
-                        <!-- <div class="item">
-                            <div class="container">
-                                <div class="carousel-caption">
-                                	<h1>RESPONSIVE LAYOUT</h1>
-                                    <p>Urbanic Bootstrap Theme is free to download and use for your sites. <br>This layout is based on Bootstrap framework.</p>
-                                    <p><a class="btn btn-lg btn-orange" href="#" role="button">Read More</a></p>
-                                </div>
-                            </div>
-                        </div> -->
-                </div> 
-				
-                <a class="left carousel-control" href="#templatemo-carousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                <a class="right carousel-control" href="#templatemo-carousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-            </div><!-- /#templatemo-carousel -->
-			<font color="white", size="+1"><marquee direction="left" style="background:red">Thời gian hoạt động: (T2-T7) &nbsp; &nbsp; &nbsp; &nbsp; Sáng: 8h00 - 12h00 &nbsp; &nbsp; &nbsp; &nbsp; Chiều: 13h00 - 17h00</marquee></font>
+		
+	 <div id="wowslider-container1">
+    <div class="ws_images">
+      <ul>
+        <li><img src="images/Banner/1.jpg" alt="1" title="1" id="wows1_0"/></li>
+        <li><img src="images/Banner/2.jpg" alt="2" title="2" id="wows1_1"/></li>
+        <li><img src="images/Banner/3.jpg" alt="3" title="3" id="wows1_2"/></li>
+        <li><img src="images/Banner/4.jpg" alt="4" title="4" id="wows1_3"/></li>
+        <li><img src="images/Banner/5.jpg" alt="5" title="5" id="wows1_4"/></li>
+        <li><img src="images/Banner/6.jpg" alt="6" title="6" id="wows1_5"/></li>
+		  <li><img src="images/Banner/7.jpg" alt="7" title="7" id="wows1_6"/></li>
+        <li><a href="http://wowslider.net"><img src="images/Banner/8.jpg" alt="jquery carousel" title="8" id="wows1_7"/></a></li>
+        <li><img src="images/8.jpg" alt="8" title="8" id="wows1_7"/></li>
+      </ul>
+    </div>
+    <div class="ws_bullets">
+      <div> 
+		  <a href="#" title="1"><span><img src="images/Banner/1.jpg" alt="1"/>1</span></a> 
+		  <a href="#" title="2"><span><img src="images/Banner/2.jpg" alt="2"/>2</span></a> 
+		  <a href="#" title="3"><span><img src="images/Banner/3.jpg" alt="3"/>3</span></a> 
+		  <a href="#" title="4"><span><img src="images/Banner/4.jpg" alt="4"/>4</span></a> 
+		  <a href="#" title="5"><span><img src="images/Banner/5.jpg" alt="5"/>5</span></a> 
+		  <a href="#" title="6"><span><img src="images/Banner/6.jpg" alt="6"/>6</span></a> 
+		  <a href="#" title="7"><span><img src="images/Banner/7.jpg" alt="7"/>7</span></a> 
+		  <a href="#" title="8"><span><img src="images/Banner/8.jpg" alt="8"/>8</span></a> 
+		</div>
+    </div>
+    <div class="ws_script" style="position:absolute;left:-99%"></div>
+    <div class="ws_shadow"></div>
+  </div>
+
+			
+			
+			
+           <font color="white", size="+1"><marquee direction="left" style="background:red">Thời gian hoạt động: (T2-T7) &nbsp; &nbsp; &nbsp; &nbsp; Sáng: 8h00 - 12h00 &nbsp; &nbsp; &nbsp; &nbsp; Chiều: 13h00 - 17h00</marquee></font>
         </div>
 
         <!-- <div class="templatemo-welcome" id="templatemo-welcome">
