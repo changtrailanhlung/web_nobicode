@@ -20,7 +20,15 @@ body {
 }
 
  h1, h3, h4, h5, h6, span, p { font-family: 'Open Sans', Arial, Helvetice Neue, sans-serif; }
-h2 {color: red; font-size: 30px; margin: 0; font-weight: bold; text-transform: uppercase;}
+h2 {color: white; font-size: 30px; margin: 0; font-weight: bold; text-transform: uppercase; background-image: url("../images/background.jpg");
+	 padding:64px 0 0 0;
+  margin:16px auto;
+	 text-align:center;
+	display:block;
+  min-height:269px;
+  min-width:120px;
+  max-height:269px;
+  max-width:1201px;  }
 * {
   -webkit-border-radius: 0 !important;
      -moz-border-radius: 0 !important;
