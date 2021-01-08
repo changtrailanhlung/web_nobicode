@@ -36,6 +36,9 @@ h3 {color: red; font-size: 30px; margin: 0; font-weight: bold; text-transform: u
           border-radius: 0 !important;
 }
 
+
+b {font-size: 18px; }
+
 .templatemo_clear {
 	clear: both;
 }
